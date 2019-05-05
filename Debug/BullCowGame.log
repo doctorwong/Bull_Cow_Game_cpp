@@ -1,0 +1,20 @@
+﻿  fBullCowGame.cpp
+c:\unrealcourse\secttion_01\bullcowgame\section_01\bullcowgame\fbullcowgame.cpp(40): error C2679: binary '[': no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\map(360): note: could be 'int &std::map<int32,int32,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](const int &)'
+          with
+          [
+              _Kty=int32,
+              _Ty=int32
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\map(196): note: or       'int &std::map<int32,int32,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](int &&)'
+          with
+          [
+              _Kty=int32,
+              _Ty=int32
+          ]
+  c:\unrealcourse\secttion_01\bullcowgame\section_01\bullcowgame\fbullcowgame.cpp(40): note: while trying to match the argument list '(std::map<int32,int32,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>, overloaded-function)'
+          with
+          [
+              _Kty=int32,
+              _Ty=int32
+          ]
